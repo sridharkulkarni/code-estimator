@@ -45,6 +45,10 @@ module.exports.parseFile = (codeString) => {
   }
 }
 
-const mapSyntax = {
+const mapPythonSyntax = {
+  "//": "Comments",
+}
+
+const mapJavaSyntax = {
   "//": "Comments",
 }
